@@ -6,7 +6,7 @@ const router = require('./router');
 const mongoose = require('mongoose');
 
 /** DB Setup */
-mongoose.connect('mongodb://localhost/auth');
+mongoose.connect('mongodb://vsangk:test1234@ds133601.mlab.com:33601/dummy-auth');
 
 /** App Setup */
 const app = express();
